@@ -1,9 +1,12 @@
 import React from 'react'
 import Layout from '../component/layout/layout'
-
+import { useAuth } from '../context/auth'
 const Homepage = () => {
+  const [auth,setAuth] = useAuth()
   return (
-    <Layout><h1>Homepage </h1></Layout>
+    <Layout title={"Best Offers"}>
+      <h1>Homepage </h1>
+    </Layout>
   )
 }
 
