@@ -33,9 +33,15 @@ const Login = () => {
   return (
     <Layout title="Register - Ecommer App">
       <div className="form-container ">
+        <div className="imgs ">
+          <img
+            src="/images/contactus.jpeg"
+            alt="contactus"
+            style={{ width: "30%" }}
+          />
+        </div>
         <form onSubmit={handleSubmit}>
           <h4 className="title">LOGIN FORM</h4>
-
           <div className="mb-3">
             <input
               type="email"

@@ -13,9 +13,9 @@
   font-size: 17px;
   line-height: 26px;
   text-transform: uppercase;
-  box-shadow: 0 8px 6px -6px violet;
+  box-shadow: 0 8px 6px -6px rgb(122 , 46, 194);
   --webkit-box-shadow: 0 8px 6px -6px gray;
-  border-bottom: 0.5px solid violet;
+  border-bottom: 1px solid rgb(122 , 46, 194);
 }
 
 .nav-link {
